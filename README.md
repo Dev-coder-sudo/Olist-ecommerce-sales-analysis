@@ -151,12 +151,15 @@ Download the [Olist dataset from Kaggle](https://www.kaggle.com/datasets/olistbr
 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — Kaggle, CC BY-NC-SA 4.0.
 
 ~100k orders placed on the Olist marketplace between 2016 and 2018, including order status, price, payment, freight, customer location, product attributes, and customer reviews.
+After downloading, run `01_Olist_Sales_Cleaned.ipynb` to regenerate
+`clean/master_orders.csv` and `clean/master_products.csv`.
 
 > **Scope note:** EDA uses `master_orders_stable` (Jan 2017–Jul 2018), excluding the soft-launch period and incomplete final month. SQL queries run on the full dataset (89,851 rows). The 97/3 repeat-buyer split is consistent across both scopes.
 
 ---
 
+
 ## Author
 
 **Dev Gupta**  
-[LinkedIn](https://linkedin.com/in/YOUR_HANDLE) · [GitHub](https://github.com/YOUR_HANDLE)
+[LinkedIn](https://www.linkedin.com/in/dev15gupta/) · [GitHub](https://github.com/Dev-coder-sudo)
